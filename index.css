@@ -1,0 +1,227 @@
+body {
+    background-color: rgba(43, 29, 104, 0.178);
+}
+
+/* Here is header-Part */
+header,
+nav,
+main,
+footer {
+    width: 100%;
+    min-width: 1700px;
+    max-width: 1800px;
+    height: auto;
+    margin: auto;
+}
+
+header * {
+    padding: 0px;
+    margin: 0px;
+}
+
+header:hover {
+    background-color: rgba(70, 15, 122, 0.123);
+    border: 2px solid none;
+    border-radius: 10px 100px 10px 100px;
+}
+
+header p {
+    font-size: 220%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(70, 15, 122);
+    font-weight: 600;
+    text-decoration-color: rgba(70, 15, 122, 0.678);
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-shadow: 5px 10px 10px rgba(70, 15, 122, 0.726);
+}
+
+header p img {
+    width: 4%;
+    border: 2px solid #582686b9;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px 5px #58268685;
+}
+
+header p a {
+    color: #582686da;
+}
+
+/* Here is Nav-Part */
+nav {
+    border: 2px solid none;
+    border-radius: 20px 100px 20px 100px;
+    height: 55px;
+    background-color: rgba(15, 17, 122, 0.178);
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px 5px rgba(15, 17, 122, 0.322);
+}
+
+nav div {
+    width: 6%;
+    height: 55px;
+    float: left;
+    margin-left: 100px;
+    line-height: 55px;
+    background-color: #a8a7ca4b;
+    border: 2px solid none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav div a {
+    font-size: x-large;
+    text-decoration: none;
+    color: rgb(7, 20, 139);
+}
+
+nav div:hover {
+    background-color: #322f964b;
+    border: 2px solid none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 15px 5px rgba(15, 17, 122, 0.322);
+    width: 8%;
+}
+
+.Div-Images {
+    background-color: #B1B0CF !important;
+}
+
+nav div img {
+    width: 33%;
+}
+
+/* here is Main and Section Part */
+main section p {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 20, 139);
+    text-shadow: 1px 5px 15px rgba(70, 15, 122, 0.726);
+    margin-top: 40px;
+}
+
+main section div {
+    width: 30%;
+    background-color: #B6B4D2;
+    margin: 20px;
+    float: left;
+    height: 330px;
+    border: 2px solid none;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 10px 10px 15px 5px #58268685;
+    min-width: 450px;
+
+}
+
+main section div img {
+    width: 37%;
+    float: right;
+    border-radius: 20px 5px 20px 5px;
+    border: 2px solid none;
+    box-shadow: 10px 10px 15px 5px #0649c565;
+}
+
+main section div p,
+span {
+    text-align: left;
+    font-size: 100%;
+    margin-top: 45px;
+    padding: 5px;
+    color: rgb(45, 45, 158);
+}
+
+.Div-Images-2,
+.Div-Images-3 {
+    width: 10%;
+    float: left;
+}
+
+main section div span {
+    font-size: x-large;
+}
+
+
+.Div-Images-3 {
+    margin-top: 58px;
+}
+
+main section div:hover {
+    background-color: #0b3cdf2a;
+    width: 33%;
+}
+
+.Text-for-section-2 {
+    margin-top: 750px;
+    border: 2px solid none;
+    border-radius: 20px;
+    background-color: #bdaacf81;
+    width: 20%;
+    height: 50px;
+    margin-left: 40%;
+    line-height: 50px;
+}
+
+.Text-for-section-2:hover {
+    background-color: #bdaacf;
+    width: 22%;
+    height: 70px;
+    line-height: 70px;
+}
+
+/* Here is footer part */
+footer {
+    background-color: #bdaacf;
+    height: 300px;
+    border: 2px solid none;
+    border-radius: 20px 20px 100px 100px;
+    box-shadow: 5px 20px 30px 15px #58268667;
+    border-bottom: 3px solid #3128b970;
+}
+
+.footer-head    {
+    color: #0738A8;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer div {
+    width: 19%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+footer p{
+    color: #4E3D74;
+    font-size: large;
+}
+
+footer div p a{
+    color: #4E3D74;
+    font-size: larger;
+}
+
+textarea{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(37, 37, 136);
+    font-size: larger;
+}
+
+textarea:hover{
+    background-color: rgba(58, 163, 224, 0.089);
+    color: rgb(107, 7, 7);
+}
+
+.Subscribe{
+    background-color: #3e63c0;
+    width: 50%;
+    height: auto;
+    font-size: 200%;
+    color: rgb(230, 227, 227);
+    border: 2px solid none;
+    border-radius: 10px;
+}
